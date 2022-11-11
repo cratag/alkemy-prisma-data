@@ -1,7 +1,11 @@
 lista_inicial = ['perro', 'elefante', 'dragón']
 
 def lista_recuento_caracteres(lista):
-    # Toma lista de elementos e imprime lista de cantidad de caracteres correspondiente a cada elemento
+    '''lista_recuento_caracteres: toma una lista de elementos y devuelve una lista con la cantidad de caracteres que le corresponden a cada elemento.
+
+    Args:
+        lista (array): lista con elementos de tipo string para contar sus caracteres.
+    '''
     lista_nueva = []
     for f in lista:
         lista_nueva.append(len(f))
