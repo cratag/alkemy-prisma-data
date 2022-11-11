@@ -73,4 +73,3 @@ class Customer(Base):
 
         
 Database().fetchAllUsers()
-# Database().saveData(('Manuel', 26, 'mail@mail.com', 'casita', 1022))
